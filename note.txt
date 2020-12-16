@@ -1,0 +1,1 @@
+non mi da nessun errore se metto in '' la var dentro if
