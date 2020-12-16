@@ -18,6 +18,11 @@ throwTheDice.addEventListener('click',
     var playerComputer = Math.floor(Math.random() * 6) + 1;
 
 
+    // azzeriamo il risultato precedente
+    document.getElementById('human').innerHTML = '';
+    document.getElementById('equality').innerHTML = '';
+
+
 
     //con una condizione if verifica il vincitore, il perdente e se si verifica una parità ed infine stampa in html il risultato del lancio dei dadi
     if (playerHuman > playerComputer) {
